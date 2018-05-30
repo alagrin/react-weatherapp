@@ -1,0 +1,14 @@
+html {
+  background-color: #183968;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  font-family: sans-serif;
+  background-image: url('./img/cloud.png'), url('./img/cloud.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 25%;
+  background-position: 10% 35%, 80% 25%;
+}

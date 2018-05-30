@@ -1,0 +1,1 @@
+This app uses MomentJS as the only external library. CSS framework included is Bulma CSS for basic format.

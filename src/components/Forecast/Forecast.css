@@ -1,0 +1,61 @@
+.current {
+    display: flex;
+    align-items: center;
+    background-color: #4A90E2;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#temp {
+    color: white;
+    margin: 0 20px;
+    padding-left: 30px;
+    font-size: 8rem;
+    font-weight: lighter;
+}
+
+.fivedays {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.single {
+    flex: 1;
+    justify-content: space-between;
+    border-right: 1px solid rgb(164, 163, 163);
+}
+
+.fivedays .single:last-child {
+    border-right: none;
+}
+
+.single p {
+    color: grey;
+    font-weight: 500;
+}
+
+#highTemp {
+    color: darkslategrey;
+    font-weight: 900;
+}
+
+#lowTemp {
+    color: darkslategrey;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.details>h1 {
+    color: white;
+}
+
+#temp > span {
+    font-size: 30%;
+    position: relative;
+    bottom: 60px;
+}
+
+.hide {
+    display: none;
+}
